@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./style/normalize.css">
         <link rel="stylesheet" href="./style/main/main.css">
         <link rel="stylesheet" href="./style/main/header.css">
+        <link rel="stylesheet" href="./style/main/hamburger.css">
         <link rel="stylesheet" href="./style/main/content.css">
     </head>
     <body>
@@ -17,14 +18,14 @@
             <header class="header">
                 <div class="header__left">
                     <div class="logo">
-                        <img src="./image/main/logo.png" alt="" class="header__logo">
+                        <a href="./main.html"><img src="./image/main/logo.png" alt="" class="header__logo"></a>
                     </div>
                     <nav class="left__links">
-                        <a href="" class="nav__left">РЕЦЕПТЫ</a>
-                        <a href="" class="nav__left">ЖУРНАЛ ЕДЫ №75 (137)</a>
-                        <a href="" class="nav__left">ИДЕИ</a>
-                        <a href="" class="nav__left">АВТОРЫ</a>
-                        <a href="" class="nav__left">БАЗА</a>
+                        <a href="./pages/recipe_page.html" class="nav__left">РЕЦЕПТЫ</a>
+                        <a href="./pages/catalog.html" class="nav__left">ЖУРНАЛ ЕДЫ №75 (137)</a>
+                        <a href="./pages/ideas.html" class="nav__left">ИДЕИ</a>
+                        <a href="./pages/authors.html" class="nav__left">АВТОРЫ</a>
+                        <a href="./pages/base.html" class="nav__left">БАЗА</a>
                     </nav>
                 </div>
                 <div class="header__right">
@@ -33,18 +34,20 @@
                         <a href="" class="nav__right">МОЯ КНИГА РЕЦЕПТОВ</a>
                         <a href="" class="nav__right">ВОЙТИ</a>
                     </nav>
-                    <div class="button">
-                    <a href="">
-                        <button class="header__button">
-                            <span>ДОБАВИТЬ РЕЦЕПТ</span>
-                        </button>
+                   
+                    <a href="./pages/add_recipe.html">
+                        
+                        <input type="buttom" class="header__button" value="ДОБАВИТЬ РЕЦЕПТ">
                     </a>
-                    </div>
+                 
+                </div>
+                <div class="hamburger">
+                    <a href="#">
+                    <img src="./image/main/m_hamburger-removebg-preview.png" alt="">
+                    </a>
                 </div>
             </header>
-            <div class="content">
-                
-            </div>
+            
         </div>
     </body>
 </html>
