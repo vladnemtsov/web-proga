@@ -1,0 +1,14 @@
+.main__content{
+    width: 1000px;
+    height: 2538px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 63px;
+     display: relative;
+    @media(max-width:1000px){
+        width: 100%;
+        margin-left:0;
+        margin-right: 0;
+    }
+}
