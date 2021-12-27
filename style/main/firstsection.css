@@ -1,0 +1,33 @@
+.first__section {
+  width: 1000px;
+  height: 2538px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  margin-top: 63px;
+  display: relative;
+}
+
+@media (max-width: 1000px) {
+  .first__section {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.first__imagetxt {
+  width: 100%;
+  height: 814px;
+  background-image: url(./five_desc.jpg);
+  background-repeat: no-repeat;
+}
+
+.txt {
+  position: absolute;
+  margin: 0;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+/*# sourceMappingURL=firstsection.css.map */

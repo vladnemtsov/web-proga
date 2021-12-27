@@ -1,0 +1,111 @@
+// .first__txtblock{
+//     width: 60%;
+//     height: 91px;
+//     margin-top: -589px;
+//     margin-left: 72px;
+//     color: #fff;
+    
+//     font-size: 55px;
+//     font-style: normal;
+//     font-weight: 1000;
+//     line-height: 55px;
+//     letter-spacing: 0em;
+//     text-align: left;
+//     @font-face {
+//         font-family: Georgia;
+//         src: url('/fonts/georgia.ttf');
+//     }
+//     // @media(max-width: 1000px){
+//     //     font-size: 5vw;
+//     // }
+// }
+// .second__txtblock{
+//     width: 50%;
+//     height: 29px;
+//     font-family: Georgia;
+//     font-size: 12px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: 14px;
+//     letter-spacing: 0em;
+//     text-align: left;
+//     color: #fff;
+//     margin-left: 72px;
+//     margin-top: 37px;
+//     @media(max-width: 639px){
+//         margin-top: 70px;
+//     }
+//      @media(max-width: 583px){
+//         margin-top: 80px;
+//     }
+//      @media(max-width: 565px){
+//         margin-top: 90px;
+//     }
+// }
+// .third__txtblock{
+//     color: #fff;
+//     width: 40%;
+//     height: 14px;
+//     font-family: Georgia;
+//     font-size: 12px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: 14px;
+//     letter-spacing: 0em;
+//     text-align: left;
+//     margin-top: 320px;
+//     margin-left: 37.4%;
+//     // @media(max-width: 1000px){
+//     //     font-size: 1vw;
+//     // }
+// }
+// .image__center{
+//     margin-top: 133px;
+// }
+// .krem__links{
+//     width: 123px;
+//     height: 13px;
+    
+//     margin-top: -425px;
+//     margin-left: 455px;
+//     text-decoration: none;
+//     color: #fff;
+// }
+// .text__links{
+//      text-decoration: none;
+//     color: #fff;
+//     font-family: Georgia;
+//     font-size: 12px;
+//     font-style: normal;
+//     font-weight: 700;
+//     line-height: 14px;
+//     letter-spacing: 0em;
+//     text-align: left;
+// }
+.first__section{
+    
+    width: 1000px;
+    height: 2538px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 63px;
+    display: relative;
+    @media(max-width:1000px){
+    width: 100%;
+    margin-left:0;
+    margin-right: 0;
+    }
+}
+.first__imagetxt{
+    display: block;
+    position: absolute;
+    
+}
+.txt{
+    position: absolute;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
