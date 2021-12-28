@@ -1,0 +1,278 @@
+.main__content {
+  width: 1000px;
+  height: 2538px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  margin-top: 63px;
+  clear: none;
+}
+
+@media (max-width: 1000px) {
+  .main__content {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.recept__txt {
+  padding-top: 92px;
+  margin: 0 0 0 350px;
+  font-family: Georgia;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 73px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (max-width: 1000px) {
+  .recept__txt {
+    margin-left: 35%;
+  }
+}
+
+@media (max-width: 520px) {
+  .recept__txt {
+    margin-left: 28%;
+  }
+}
+
+.recept__about {
+  width: 60.5%;
+  margin: 43px 0 0 199px;
+  font-family: Georgia;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media (max-width: 520px) {
+  .recept__about {
+    margin: 43px 0 0 150px;
+  }
+}
+
+.recept__find {
+  width: 164px;
+  height: 14px;
+  margin: 110px 0 0 45px;
+  font-family: Georgia;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.kotlet__kur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 578px) {
+  .kotlet__kur {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.opisanie__kur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 22px 0 0 11px;
+}
+
+.kotlet {
+  margin: 0;
+}
+
+.author {
+  margin: 0;
+  padding-top: 7px;
+  width: 92px;
+  height: 15px;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4B4A4A;
+}
+
+.kol__ingred {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.kol__voi {
+  border-right: 2px solid #ccc;
+  width: 110px;
+  height: 18px;
+  margin-right: 5px;
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #000000;
+}
+
+@media (max-width: 674px) {
+  .kol__voi {
+    margin-left: 0;
+  }
+}
+
+.kol__vop {
+  border-right: 2px solid #ccc;
+  width: 60px;
+  height: 18px;
+  margin-right: 5px;
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #000000;
+}
+
+@media (max-width: 674px) {
+  .kol__vop {
+    margin-left: 0;
+  }
+}
+
+.time {
+  width: 139px;
+  height: 18px;
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.main__kotleta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0 0 45px;
+}
+
+@media (max-width: 578px) {
+  .main__kotleta {
+    width: 40%;
+  }
+}
+
+.button__recipe {
+  width: 347px;
+  height: 45px;
+  margin: 24px 0 0 0;
+  background: #FFFFFF;
+  border: 2px solid #C4C4C4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+
+.brownie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 578px) {
+  .brownie {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main__brownie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0 0 45px;
+}
+
+@media (max-width: 578px) {
+  .main__brownie {
+    width: 40%;
+  }
+}
+
+.opisanie__brownie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 22px 0 0 11px;
+}
+
+.brownie__txt {
+  margin: 0;
+}
+
+.author__nastya {
+  margin: 0;
+  padding-top: 7px;
+  width: 92px;
+  height: 15px;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4B4A4A;
+}
+
+.kol__ingred1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 0 11px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.button__recipe1 {
+  width: 347px;
+  height: 45px;
+  margin: 24px 0 0 11px;
+  background: #FFFFFF;
+  border: 2px solid #C4C4C4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+/*# sourceMappingURL=maincontent.css.map */

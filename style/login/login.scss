@@ -1,0 +1,47 @@
+$formW:320px;
+$formH:34px;
+$otstupL:29px;
+.form__login{
+
+    // width: 47%;
+    width: 630px;
+    height: 400px;
+    border-radius: 30px;
+    background-color: rgb(208, 227, 243);
+    margin: auto;
+    margin-top: 250px;
+    @media(max-width: 638px){
+        width: 100%;
+        margin-left:0;
+        margin-right: 0;
+    }
+}
+.form__txt{
+    font-family: Georgia;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 44px;
+    margin-left: 29px;
+
+}
+.form__log{
+    
+    width: $formW;
+    height: $formH;
+    border-radius: 26px;
+    margin-top: 128px;
+    margin-left: $otstupL;
+    border:none;
+}
+.form__pass{
+    width: $formW;
+    height: $formH;
+    border-radius: 26px;
+    margin-top: 26px;
+    margin-left: $otstupL;
+    border: none;
+}
