@@ -1,6 +1,6 @@
 .main__content {
   width: 1000px;
-  height: 1557px;
+  height: 1800px;
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
@@ -19,7 +19,7 @@
 .main__zag {
   width: 372px;
   height: 26px;
-  padding-top: 92px;
+  padding-top: 93px;
   margin-left: 314px;
   font-family: Georgia;
   font-style: normal;
@@ -30,28 +30,32 @@
   color: #000000;
 }
 
-@media (max-width: 1017px) {
+@media (max-width: 703px) {
   .main__zag {
     margin-left: 31.4%;
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 562px) {
   .main__zag {
-    margin-left: 25.4%;
-    width: 70%;
+    margin-left: 25%;
   }
 }
 
-.kotlet__kurin {
+@media (max-width: 511px) {
+  .main__zag {
+    margin-left: 10%;
+  }
+}
+
+.main__kotlety {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 31px;
 }
 
-@media (max-width: 600px) {
-  .kotlet__kurin {
+@media (max-width: 660px) {
+  .main__kotlety {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -59,7 +63,20 @@
   }
 }
 
-.opisanie__kurin {
+.main__kotlet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0 0 45px;
+}
+
+@media (max-width: 578px) {
+  .main__kotlet {
+    width: 40%;
+  }
+}
+
+.opisanie__kotlet {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,7 +89,7 @@
 
 .kotlet {
   margin: 0;
-  color: black;
+  color: #000;
 }
 
 .author {
@@ -107,7 +124,6 @@
   font-weight: normal;
   font-size: 15px;
   line-height: 17px;
-  /* identical to box height */
   color: #000000;
 }
 
@@ -127,7 +143,6 @@
   font-weight: normal;
   font-size: 15px;
   line-height: 17px;
-  /* identical to box height */
   color: #000000;
 }
 
@@ -145,27 +160,13 @@
   font-weight: normal;
   font-size: 15px;
   line-height: 17px;
-  /* identical to box height */
   color: #000000;
-}
-
-.main__kotleta {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 30px 0 0 45px;
-}
-
-@media (max-width: 578px) {
-  .main__kotleta {
-    width: 40%;
-  }
 }
 
 .button__recipe {
   width: 347px;
   height: 45px;
-  margin: 18px 0 0 0;
+  margin: 36px 0 0 0;
   background: #FFFFFF;
   border: 2px solid #C4C4C4;
   -webkit-box-sizing: border-box;
@@ -177,46 +178,14 @@
   text-decoration: none;
 }
 
-.ssylka:hover {
-  color: #AF212B;
-}
-
-.second__zag {
-  margin-left: 303px;
-  padding-top: 61px;
-  width: 395px;
-  height: 26px;
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 28px;
-  text-align: center;
-  color: #000000;
-}
-
-@media (max-width: 1017px) {
-  .second__zag {
-    margin-left: 30.3%;
-  }
-}
-
-@media (max-width: 560px) {
-  .second__zag {
-    margin-left: 25.4%;
-    width: 70%;
-  }
-}
-
-.fasol {
+.main__fasol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 31px;
 }
 
 @media (max-width: 660px) {
-  .fasol {
+  .main__fasol {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -224,7 +193,7 @@
   }
 }
 
-.main__fasol {
+.main__faimg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -232,22 +201,9 @@
 }
 
 @media (max-width: 578px) {
-  .main__fasol {
+  .main__faimg {
     width: 40%;
   }
-}
-
-.fasolka {
-  margin: 0;
-  color: black;
-  width: 395px;
-  height: 54px;
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 28px;
-  color: #000000;
 }
 
 .opisanie__fasol {
@@ -261,15 +217,19 @@
   margin: 22px 0 0 11px;
 }
 
-.farsh {
+.fasoll {
+  margin: 0;
+  color: #000;
+}
+
+.main__farsh {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 31px;
 }
 
 @media (max-width: 660px) {
-  .farsh {
+  .main__farsh {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -277,7 +237,7 @@
   }
 }
 
-.main__farsh {
+.main__farshimg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -285,21 +245,9 @@
 }
 
 @media (max-width: 578px) {
-  .main__farsh {
+  .main__farshimg {
     width: 40%;
   }
-}
-
-.farshik {
-  margin: 0;
-  width: 400px;
-  height: 60px;
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 28px;
-  color: #000000;
 }
 
 .opisanie__farsh {
@@ -313,84 +261,19 @@
   margin: 22px 0 0 11px;
 }
 
-.button__recipe1 {
-  width: 347px;
-  height: 45px;
-  margin: 13px 0 0 0;
-  background: #FFFFFF;
-  border: 2px solid #C4C4C4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  cursor: pointer;
-}
-
-.ragu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 31px;
-}
-
-@media (max-width: 660px) {
-  .ragu {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
+.farsh {
+  margin: 0;
+  color: #000;
 }
 
 .main__ragu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 30px 0 0 45px;
-}
-
-@media (max-width: 578px) {
-  .main__ragu {
-    width: 40%;
-  }
-}
-
-.opis__ragu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 22px 0 0 11px;
-}
-
-.raguu {
-  margin: 0;
-  width: 431px;
-  height: 55px;
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 28px;
-  color: #000000;
-}
-
-@media (max-width: 478px) {
-  .raguu {
-    width: 70%;
-  }
-}
-
-.ketolom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 31px;
 }
 
 @media (max-width: 660px) {
-  .ketolom {
+  .main__ragu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -398,7 +281,7 @@
   }
 }
 
-.main__ketolom {
+.main__raguimg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -406,12 +289,12 @@
 }
 
 @media (max-width: 578px) {
-  .main__ketolom {
+  .main__raguimg {
     width: 40%;
   }
 }
 
-.opis__ketolom {
+.opisanie__ragu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,28 +305,97 @@
   margin: 22px 0 0 11px;
 }
 
-.keto {
-  margin: 4px 0 0 0;
-  width: 449px;
-  height: 26px;
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 28px;
-  text-align: left;
-  color: #000000;
+.ragu {
+  margin: 0;
+  color: #000;
 }
 
-.button__recipe3 {
-  width: 347px;
-  height: 45px;
-  margin: 44px 0 0 0;
-  background: #FFFFFF;
-  border: 2px solid #C4C4C4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  cursor: pointer;
+.main__ketolomtik {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 660px) {
+  .main__ketolomtik {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main__ketoimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0 0 45px;
+}
+
+@media (max-width: 578px) {
+  .main__ketoimg {
+    width: 40%;
+  }
+}
+
+.opisanie__ketolom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 22px 0 0 11px;
+}
+
+.ketolom {
+  margin: 0;
+  color: #000;
+}
+
+.main__bazilk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 660px) {
+  .main__bazilk {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main__bazilikimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0 0 45px;
+}
+
+@media (max-width: 578px) {
+  .main__bazilikimg {
+    width: 40%;
+  }
+}
+
+.opisanie__bazilik {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 22px 0 0 11px;
+}
+
+.ketolom {
+  margin: 0;
+  color: #000;
 }
 
 .more {
