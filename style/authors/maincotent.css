@@ -1,6 +1,6 @@
 .main__content {
   width: 1000px;
-  height: 1747px;
+  height: 1557px;
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
@@ -13,85 +13,45 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    height: 1850px;
   }
 }
 
-@media (max-width: 609px) {
-  .main__content {
-    height: 1900px;
-  }
-}
-
-@media (max-width: 600px) {
-  .main__content {
-    height: 2600px;
-  }
-}
-
-.recept__txt {
+.main__zag {
+  width: 372px;
+  height: 26px;
   padding-top: 92px;
-  margin: 0 0 0 350px;
+  margin-left: 314px;
   font-family: Georgia;
-  font-size: 64px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 73px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-@media (max-width: 1000px) {
-  .recept__txt {
-    margin-left: 35%;
-  }
-}
-
-@media (max-width: 520px) {
-  .recept__txt {
-    margin-left: 28%;
-  }
-}
-
-.recept__about {
-  width: 60.5%;
-  margin: 43px 0 0 199px;
-  font-family: Georgia;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 17px;
-  letter-spacing: 0em;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
   text-align: center;
+  color: #000000;
 }
 
-@media (max-width: 520px) {
-  .recept__about {
-    margin: 43px 0 0 150px;
+@media (max-width: 1017px) {
+  .main__zag {
+    margin-left: 31.4%;
   }
 }
 
-.recept__find {
-  width: 164px;
-  height: 14px;
-  margin: 110px 0 0 45px;
-  font-family: Georgia;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0em;
-  text-align: center;
+@media (max-width: 560px) {
+  .main__zag {
+    margin-left: 25.4%;
+    width: 70%;
+  }
 }
 
-.kotlet__kur {
+.kotlet__kurin {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 31px;
 }
 
 @media (max-width: 600px) {
-  .kotlet__kur {
+  .kotlet__kurin {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -99,7 +59,7 @@
   }
 }
 
-.opisanie__kur {
+.opisanie__kurin {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,6 +72,7 @@
 
 .kotlet {
   margin: 0;
+  color: black;
 }
 
 .author {
@@ -204,7 +165,7 @@
 .button__recipe {
   width: 347px;
   height: 45px;
-  margin: 24px 0 0 0;
+  margin: 18px 0 0 0;
   background: #FFFFFF;
   border: 2px solid #C4C4C4;
   -webkit-box-sizing: border-box;
@@ -212,14 +173,50 @@
   cursor: pointer;
 }
 
-.brownie {
+.ssylka {
+  text-decoration: none;
+}
+
+.ssylka:hover {
+  color: #AF212B;
+}
+
+.second__zag {
+  margin-left: 303px;
+  padding-top: 61px;
+  width: 395px;
+  height: 26px;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+@media (max-width: 1017px) {
+  .second__zag {
+    margin-left: 30.3%;
+  }
+}
+
+@media (max-width: 560px) {
+  .second__zag {
+    margin-left: 25.4%;
+    width: 70%;
+  }
+}
+
+.fasol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 31px;
 }
 
-@media (max-width: 600px) {
-  .brownie {
+@media (max-width: 660px) {
+  .fasol {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -227,7 +224,7 @@
   }
 }
 
-.main__brownie {
+.main__fasol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -235,12 +232,25 @@
 }
 
 @media (max-width: 578px) {
-  .main__brownie {
+  .main__fasol {
     width: 40%;
   }
 }
 
-.opisanie__brownie {
+.fasolka {
+  margin: 0;
+  color: black;
+  width: 395px;
+  height: 54px;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.opisanie__fasol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -251,37 +261,62 @@
   margin: 22px 0 0 11px;
 }
 
-.brownie__txt {
-  margin: 0;
-}
-
-.author__nastya {
-  margin: 0;
-  padding-top: 7px;
-  width: 92px;
-  height: 15px;
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  color: #4B4A4A;
-}
-
-.kol__ingred1 {
+.farsh {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 0 0 11px;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  padding-top: 31px;
+}
+
+@media (max-width: 660px) {
+  .farsh {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main__farsh {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0 0 45px;
+}
+
+@media (max-width: 578px) {
+  .main__farsh {
+    width: 40%;
+  }
+}
+
+.farshik {
+  margin: 0;
+  width: 400px;
+  height: 60px;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.opisanie__farsh {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 22px 0 0 11px;
 }
 
 .button__recipe1 {
   width: 347px;
   height: 45px;
-  margin: 24px 0 0 11px;
+  margin: 13px 0 0 0;
   background: #FFFFFF;
   border: 2px solid #C4C4C4;
   -webkit-box-sizing: border-box;
@@ -289,14 +324,15 @@
   cursor: pointer;
 }
 
-.syrniki {
+.ragu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 31px;
 }
 
-@media (max-width: 600px) {
-  .syrniki {
+@media (max-width: 660px) {
+  .ragu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -304,7 +340,7 @@
   }
 }
 
-.main__syrniki {
+.main__ragu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -312,12 +348,12 @@
 }
 
 @media (max-width: 578px) {
-  .main__syrniki {
+  .main__ragu {
     width: 40%;
   }
 }
 
-.opisanie__syrniki {
+.opis__ragu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -328,31 +364,33 @@
   margin: 22px 0 0 11px;
 }
 
-.syrniki__txt {
+.raguu {
   margin: 0;
-}
-
-.author__lexa {
-  margin: 0;
-  padding-top: 7px;
-  width: 171px;
-  height: 15px;
+  width: 431px;
+  height: 55px;
   font-family: Georgia;
   font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  color: #4B4A4A;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
+  color: #000000;
 }
 
-.spaggeti {
+@media (max-width: 478px) {
+  .raguu {
+    width: 70%;
+  }
+}
+
+.ketolom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 31px;
 }
 
-@media (max-width: 600px) {
-  .spaggeti {
+@media (max-width: 660px) {
+  .ketolom {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -360,7 +398,7 @@
   }
 }
 
-.main__spaggeti {
+.main__ketolom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -368,12 +406,12 @@
 }
 
 @media (max-width: 578px) {
-  .main__spaggeti {
+  .main__ketolom {
     width: 40%;
   }
 }
 
-.opisanie__spaggeti {
+.opis__ketolom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -384,77 +422,28 @@
   margin: 22px 0 0 11px;
 }
 
-.spaggeti__txt {
-  margin: 0;
-}
-
-.author__zimin {
-  margin: 0;
-  padding-top: 7px;
-  width: 200px;
-  height: 15px;
+.keto {
+  margin: 4px 0 0 0;
+  width: 449px;
+  height: 26px;
   font-family: Georgia;
   font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  color: #4B4A4A;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: left;
+  color: #000000;
 }
 
-.sharlotka {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-@media (max-width: 600px) {
-  .sharlotka {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.main__sharlotka {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 30px 0 0 45px;
-}
-
-@media (max-width: 578px) {
-  .main__sharlotka {
-    width: 40%;
-  }
-}
-
-.opisanie__sharlotki {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 22px 0 0 11px;
-}
-
-.sharlotka__txt {
-  margin: 0;
-}
-
-.author__tanya {
-  margin: 0;
-  padding-top: 7px;
-  width: 200px;
-  height: 15px;
-  font-family: Georgia;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  color: #4B4A4A;
+.button__recipe3 {
+  width: 347px;
+  height: 45px;
+  margin: 44px 0 0 0;
+  background: #FFFFFF;
+  border: 2px solid #C4C4C4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
 }
 
 .more {
@@ -477,13 +466,4 @@
   height: 50px;
   margin-right: 14px;
 }
-
-.ssylka {
-  text-decoration: none;
-  color: #000000;
-}
-
-.ssylka:hover {
-  color: #AF212B;
-}
-/*# sourceMappingURL=maincontent.css.map */
+/*# sourceMappingURL=maincotent.css.map */

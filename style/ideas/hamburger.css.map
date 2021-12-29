@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,OAAO,EAAC,IAAI;CAMf;;AALG,MAAM,EAAC,SAAS,EAAE,MAAM;EAF5B,AAAA,UAAU,CAAA;IAGF,OAAO,EAAE,KAAK;IACd,UAAU,EAAE,IAAI;IAChB,WAAW,EAAE,IAAI;GAExB",
-    "sources": [
-        "hamburger.scss"
-    ],
-    "names": [],
-    "file": "hamburger.css"
-}
