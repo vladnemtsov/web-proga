@@ -1,0 +1,137 @@
+.main__content{
+    width: 1000px;
+    height: 5281px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 63px;
+    @media(max-width:1000px){
+        width: 100%;
+        margin-left:0;
+        margin-right: 0;
+    }
+}
+.kotlet__txt{
+    padding-top: 104px;
+    margin: 0 0 0 144px;
+    font-family: Georgia;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    @media(max-width:1017px){
+        margin:0 0 0 14.4%;
+    }
+}
+.kotlet__img{
+    margin: 55px 0 0 34px;
+}
+.ingred{
+    width: 132px;
+    height: 17px;
+    margin:50px 0 0 34px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+
+}
+.block__ingred{
+    
+    display:flex;
+    // justify-content:space-evenly;
+    margin:0px 30px 0px 34px;
+    border-bottom:2px solid #000000;
+}
+.block__ingred1{
+    
+    display:flex;
+    // justify-content:space-evenly;
+    margin:55px 30px 0px 34px;
+    border-bottom:2px solid #000000;
+}
+.weight{
+    margin-left: 50px;
+}
+.instruktion__txt{
+    width: 270px;
+    height: 17px;
+    margin:86px 0 0 34px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+}
+/////////////////
+.first__step{
+    display: flex;
+    @media(max-width:722px){
+        flex-direction: column;
+        margin: 0 0 0 34px;
+    }
+}
+.first__img{
+    margin: 25px 0 0 34px;
+    @media(max-width:520px){
+        width:90%;
+    }
+}
+.first__opis{
+    width: 300px;
+    height: 17px;
+    margin: 93px 0 0 38px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 16px;
+    color: #000;
+    @media(max-width:722px){
+        margin:5px 0 0 38px;
+    }
+}
+.f2{
+    margin: 0;
+}
+/////////////////////////////
+.second__step{
+    display: flex;
+    @media(max-width:722px){
+        flex-direction: column;
+        margin: 0 0 0 34px;
+    }
+}
+.second__img{
+    margin: 25px 0 0 34px;
+    @media(max-width:722px){
+    margin: 128px 0 0 38px;
+    }
+    @media(max-width:520px){
+        width:90%;
+    }
+}
+.second__opis{
+    width: 470px;
+    height: 111px;
+    margin: 93px 0 0 38px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 28px;
+    color: #000000;
+    @media(max-width:722px){
+        margin:5px 0 0 38px;
+    }
+    @media(max-width:560px){
+        width: 80%;
+    }
+}

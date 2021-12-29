@@ -1,6 +1,6 @@
 .main__content {
   width: 1000px;
-  height: 2538px;
+  height: 1747px;
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
@@ -13,6 +13,19 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    height: 1850px;
+  }
+}
+
+@media (max-width: 609px) {
+  .main__content {
+    height: 1900px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main__content {
+    height: 2600px;
   }
 }
 
@@ -77,7 +90,7 @@
   display: flex;
 }
 
-@media (max-width: 578px) {
+@media (max-width: 600px) {
   .kotlet__kur {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -205,7 +218,7 @@
   display: flex;
 }
 
-@media (max-width: 578px) {
+@media (max-width: 600px) {
   .brownie {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -282,7 +295,7 @@
   display: flex;
 }
 
-@media (max-width: 578px) {
+@media (max-width: 600px) {
   .syrniki {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -338,7 +351,7 @@
   display: flex;
 }
 
-@media (max-width: 578px) {
+@media (max-width: 600px) {
   .spaggeti {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -386,5 +399,95 @@
   font-size: 12px;
   line-height: 14px;
   color: #4B4A4A;
+}
+
+.sharlotka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .sharlotka {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main__sharlotka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0 0 45px;
+}
+
+@media (max-width: 578px) {
+  .main__sharlotka {
+    width: 40%;
+  }
+}
+
+.opisanie__sharlotki {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 22px 0 0 11px;
+}
+
+.sharlotka__txt {
+  margin: 0;
+}
+
+.author__tanya {
+  margin: 0;
+  padding-top: 7px;
+  width: 200px;
+  height: 15px;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4B4A4A;
+}
+
+.more {
+  width: 122px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 2px solid #24AF30;
+  cursor: pointer;
+  margin-top: 109px;
+  margin-left: 46.1%;
+}
+
+.footer {
+  margin-left: 32%;
+  margin-top: 97px;
+}
+
+.social {
+  width: 50px;
+  height: 50px;
+  margin-right: 14px;
+}
+
+.ssylka {
+  text-decoration: none;
+  color: #000000;
+}
+
+.ssylka:hover {
+  color: #AF212B;
+}
+
+input:hover {
+  color: #AF212B;
 }
 /*# sourceMappingURL=maincontent.css.map */
